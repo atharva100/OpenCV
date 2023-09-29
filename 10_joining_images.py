@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-
+print("helloworld")
 #you need not have to worry about this function learn how to use it 
 def stackImages(scale,imgArray):
     rows = len(imgArray)
@@ -48,3 +48,8 @@ cv.imshow("Image Stack",imgStack)
 # cv.imshow("Varticle",imgVar)
 
 cv.waitKey(0)
+
+
+# good project. 10/10
+
+
